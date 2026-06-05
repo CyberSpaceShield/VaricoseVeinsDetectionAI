@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- ML / model artifacts ---
+*.h5
+*.keras
+*.tflite
+*.onnx
+
+# --- Databases & secrets ---
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.crt
+*.csr
+*.env
+.env
+.env.*
+
+# --- Node / frontend build ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/coverage/
+frontend/.env
+
+# --- Backend uploads & sensitive files ---
+uploads/
+backend/uploads/
+backend/patient_report.pdf
+
+# --- Datasets (raw images can be sensitive/large) ---
+backend/dataset/
+
+# --- Other common ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
